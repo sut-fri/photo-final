@@ -77,16 +77,3 @@ body {
     gap: 1em;
     padding: 0;
 }
-
-.pics {
-    width: auto;
-    height: auto;
-    max-height: 100vh;
-    object-fit: cover;
-    border-radius: 25px;
-    margin-right: 1em;
-    padding: 0;
-    display: block;
-}
-
-
