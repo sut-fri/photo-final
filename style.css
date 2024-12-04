@@ -18,6 +18,8 @@ body {
 	justify-content: space-between;
 	color: white;
 	height: calc(100vh - 6em);
+	text-decoration: none;
+	color: white;
 }
 
 #parent-left {
@@ -28,7 +30,8 @@ body {
     width: 70vw;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: flex-end;
+    justify-content: space-between;
     height: 100%;
     padding: 0;
     margin: 0;
@@ -42,6 +45,11 @@ body {
 .child-left-small {
 	display: flex;
 	font-size: 1em;
+}
+
+.child-left-bottom {
+	display: flex;
+	align-self: flex-end;
 }
 
 .child-left-small-top {
@@ -64,7 +72,6 @@ body {
 	font-family: "URW Chancery L", cursive;
 	margin: 1em;
 	text-align: right;
-/*	margin-top: 1em;*/
 }
 
 .child-right {
