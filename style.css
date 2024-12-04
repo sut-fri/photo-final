@@ -30,8 +30,7 @@ body {
     width: 70vw;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    justify-content: space-between;
+    align-items: flex-start;
     height: 100%;
     padding: 0;
     margin: 0;
@@ -48,8 +47,9 @@ body {
 }
 
 .child-left-bottom {
-	display: flex;
-	align-self: flex-end;
+	position: absolute;
+	bottom: 3em;
+	left: 3em;
 }
 
 .child-left-small-top {
@@ -95,5 +95,3 @@ body {
     padding: 0;
     display: block;
 }
-
-
