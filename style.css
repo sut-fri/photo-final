@@ -24,6 +24,7 @@ body {
 
 #parent-left {
 	width: 20vw;
+	min-width: fit-content;
 }
 
 #parent-right {
