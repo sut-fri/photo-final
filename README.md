@@ -1,2 +1,2 @@
 # photo-final
-uwu
+have you been punished?
