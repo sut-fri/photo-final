@@ -1,0 +1,77 @@
+body {
+	background-image: url("hands.gif");
+	background-size: cover;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#page-container {
+	margin: 3em;
+	padding: 0;
+	font-family: "URW Chancery L", cursive;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: white;
+	height: calc(100vh - 6em); /* Adjust height based on margin */
+}
+
+#parent-right {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+/*    border: solid white 3px;*/
+    height: 100%; /* Matches the height of #page-container */
+    padding: 0; /* Removes internal padding */
+    margin: 0; /* Removes external margin */
+}
+
+
+.child-left {
+	display: flex;
+	font-size: 3em;
+}
+
+.child-left-small {
+	display: flex;
+	font-size: 1em;
+}
+
+.child-right-small {
+	display: flex;
+	justify-content: center;
+	font-size: 1em;
+	font-family: Times, Times New Roman, serif;
+	margin-bottom: 1em;
+}
+
+.child-right {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    height: 100%; /* Fill parent container height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: transparent;
+    gap: 1em;
+    padding: 0;
+    width: 110%;
+
+}
+
+.pics {
+    width: auto;
+    height: auto; /* Allows content to determine height */
+    max-height: 50vh; /* Prevents it from exceeding parent height */
+    object-fit: cover; /* Ensures the content looks good if it's an image */
+    border-radius: 25px;
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+    display: block; /* Ensures the element respects its container width */
+
+}
+
+
