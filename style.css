@@ -44,6 +44,11 @@ body {
 	font-size: 1em;
 }
 
+.child-left-small-top {
+	display: flex;
+	font-size: 1.5em;
+}
+
 .child-right-text {
 	display: flex;
 	justify-content: center;
@@ -58,6 +63,7 @@ body {
 	font-size: 1em;
 	font-family: "URW Chancery L", cursive;
 	margin: 1em;
+	text-align: right;
 /*	margin-top: 1em;*/
 }
 
