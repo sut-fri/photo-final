@@ -31,12 +31,15 @@ body {
 }
 
 .loadingScreen img {
-	animation:  rotateForever 2s infinite;
+  animation: rotateForever 5s linear infinite;
 }
 
 @keyframes rotateForever {
   from {
-   transform: rotate(360deg);
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
