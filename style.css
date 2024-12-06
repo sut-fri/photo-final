@@ -31,7 +31,7 @@ body {
 }
 
 .loadingScreen img {
-  animation: rotateForever 10s linear infinite;
+  animation: rotateForever 15s linear infinite;
 }
 
 @keyframes rotateForever {
