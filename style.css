@@ -104,12 +104,12 @@ body {
 }
 
 .pics {
-    width: auto;
+    width: 100%;
     height: auto;
-    max-height: 100vh;
-    object-fit: cover;
+    max-height: 100%;
+    object-fit: contain;
     border-radius: 25px;
-    margin-right: 1em;
+    margin: 1em 0;
     padding: 0;
     display: block;
 }

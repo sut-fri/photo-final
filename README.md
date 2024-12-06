@@ -1,2 +1,2 @@
 # photo-final
-<!-- have you been punished? -->
+have you been punished?
