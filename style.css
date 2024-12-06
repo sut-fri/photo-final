@@ -58,7 +58,7 @@ body {
 }
 
 .child-left {
-	font-size: 3em;
+	font-size: 4em;
 	margin: 0;
     align-self: flex-start;
 }
