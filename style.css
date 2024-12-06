@@ -70,10 +70,20 @@ body {
     align-self: flex-start;
 }
 
-
 .child-left-bottom {
     margin: 0;
     align-self: flex-start;
+}
+
+.child-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: transparent;
+    gap: 1.5em;
+    padding: 0;
 }
 
 .child-right-text {
@@ -91,17 +101,6 @@ body {
 	font-family: "URW Chancery L", cursive;
 	margin: 1em;
 	text-align: right;
-}
-
-.child-right {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    background-color: transparent;
-    gap: 1.5em;
-    padding: 0;
 }
 
 .pics {
